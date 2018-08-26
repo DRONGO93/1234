@@ -10,10 +10,12 @@ namespace ConsoleApp1
     class Program
     {
         //2
-        //static PropertyInfo GetPropertyInfo(object obj, string str)
-        //{
-        //    return obj.GetType().GetProperty(str);
-        //}
+        static PropertyInfo GetPropertyInfo(object obj, string str)
+        {
+            return obj.GetType().GetProperty(str);
+        }
+
+
 
         //Параметры для Main.
         //static, (string[] args) - чтобы не потерять.
